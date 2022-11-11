@@ -1,0 +1,166 @@
+
+<!-- saved from url=(0059)http://localhost/WTproject/Project/view/in_edit_profile.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="./in_edit_profile.php_files/in_style.css">
+</head>
+<body>
+  <div class="nav_profile">
+    <!-- <table class="nav_color_business"> -->
+      <table>
+        <tbody><tr>
+          <th><a href="http://localhost/WTproject/Project/view/in_home.php"><img src="./in_edit_profile.php_files/page_ icon.png" width="200" height="45"></a></th>
+          <th> </th>
+          <td><a href="http://localhost/WTproject/Project/view/in_home.php"> Home </a></td>
+          <!-- <th> </th>
+          <th><a href="in_profile.php"> Profile </a></th> -->
+          <th> </th>
+          <td><a href="http://localhost/WTproject/Project/view/in_my_business.php"> My Business </a></td>
+          
+          <th> </th>
+          <td><a href="http://localhost/WTproject/Project/view/in_entrepreneure.php"> Entrepreneurs </a></td>
+          <th> </th>
+          <th><a href="http://localhost/WTproject/Project/view/in_profile.php">Md. Rifat</a></th>
+          <th> </th>
+          <td><a href="http://localhost/WTproject/Project/control/in_af_login_nav_%20logout_process.php">Logout</a></td>
+          <th> </th>
+          <td><a href="http://localhost/WTproject/Project/view/in_edit_profile.php"> Notifications </a></td>
+          <th> </th>      
+        </tr>
+    </tbody></table>
+  </div>
+
+
+
+
+  
+  
+  
+
+<hr>
+<center>
+<div class="editp">
+<form action="http://localhost/WTproject/Project/view/in_edit_profile.php" method="post" name="update1" onsubmit="return passValid()" enctype="multipart/form-data">
+
+&nbsp; <table>
+  <caption>Personal Information</caption>
+<tbody><tr>
+<td>First Name:</td>
+<td><input type="text" name="fname" value="Md. Rifat"></td>
+</tr>
+
+<tr>
+<td>Last name:</td>
+  <td><input type="text" name="lname" value="Hossain"></td>
+</tr>
+
+<tr>
+<td>Date of birth:</td>
+<td><input type="date" name="age" value="1999-08-19"></td>
+</tr>
+
+<tr>
+  <td>Gender:</td><td><input type="radio" name="gender" value="r1" checked="">Male
+&nbsp; <input type="radio" name="gender" value="r2">Female
+  <input type="radio" name="gender" value="r3">Other</td>
+</tr>
+
+<tr>
+<td>Phone number:</td>
+<td><input type="number" name="phone" id="phone" onkeypress="phone(this)" placeholder="01993830224" value="1914043244"></td>
+</tr>
+
+<!-- <tr>
+<td>Personal email:</td>
+<td><input type="email" name="email" value="rh140025@gmail.com"></td>
+</tr>
+<tr>
+<td>Personal address:</td>
+<td><input type="text" name="pAddress" value="singair,manikgonj,dhaka"></td>
+</tr> -->
+
+<tr>
+<td>Personal address:</td>
+<td><textarea name="pAddress" class="detail">singair,manikgonj,dhaka</textarea></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" id="passShow" onkeypress="passValid()" name="pwd" value="cadetrifat"></td>
+<td><p id="passerror"></p></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="checkbox" onclick="showPass()" name="pwd"> Show Password</td>
+</tr>
+
+</tbody></table>
+</form></div>
+
+
+<div class="editp">
+<table>
+<caption>Profational Information</caption>
+<tbody><tr>
+<td>Organization name:</td>
+<td><input type="text" name="oname" value="meghla rifat Foundation"></td>
+</tr>
+
+<tr>
+<td>Organization license:</td>
+  <td><input type="text" name="liname" value="singairsw32"></td>
+</tr>
+
+<tr>
+<td>Tax identification number:</td>
+  <td><input type="number" name="tin" value="223435231"></td>
+</tr>
+
+<!-- <tr>
+<td>Organization address:</td>
+  <td><input type="text" name="oaddress" value="singair,manikgonj"></td>
+</tr> -->
+
+<tr>
+<td>Organization address:</td>
+  <td><textarea class="detail" name="oaddress" value="">singair,manikgonj</textarea></td>
+</tr>
+
+<tr>
+<td>Established date:</td>
+<td><input type="date" name="edate" value="2013-02-14"></td>
+</tr>
+
+<!-- <tr>
+  <td>Gender:</td>
+  <td><input type="radio" name = "gender" value="r1">Male
+  <input type="radio" name = "gender" value="r2">Female
+  <input type="radio" name = "gender" value="r3">Other</td>
+</tr> -->
+<tr>
+<td>Organization email:</td>
+<td><input type="email" name="oemail" value="bd@gmail.com"></td>
+</tr>
+<tr>
+<td>Organization website:</td>
+<td><input type="text" name="site" value="https://www.youtube.com"></td>
+</tr>
+
+<!-- <tr>
+<td>Add photo:</td>
+<td><input type="file" name="myfile"></td>
+</tr> -->
+<!-- <tr> 
+<td><input type="submit" value="Update" name="Update">
+<input type="reset" name="Reset"></td>
+</tr> -->
+</tbody></table>
+
+<input type="submit" class="buttonedit" value="Update" name="next1"><br>
+<input type="reset" name="Reset" class="buttonedit">
+</div>
+
+</center>
+
+
+
+</body></html>
